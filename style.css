@@ -1,0 +1,63 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Astloch', cursive;
+}
+
+.app{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1{
+    margin: 0px 0px 30px 0px;
+    text-align: center;
+    /* font-size: 15em; */
+}
+
+header p {
+    text-align: center;
+}
+
+.pads {
+    background: chartreuse;
+    width: 100%;
+    display: flex;
+}
+
+.pads > div {
+    height: 100px;
+    width: 100px;
+    flex: 1;
+}
+
+.chant{
+ background: #303030;
+}
+
+.snare{
+ background: #404040;
+}
+
+.base{
+    background: #505050;
+}
+
+.clap{
+    background: #606060;
+}
+
+.hihat{
+    background: #707070;
+}
+
+.voc{
+    background: #808080;
+}
